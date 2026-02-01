@@ -16,7 +16,7 @@ export default function Footer() {
               <Zap className="w-6 h-6 text-cyan-400" />
             </div>
             <div>
-              <div className="text-white font-bold text-lg">BlockChainCraft</div>
+              <div className="text-white font-bold text-lg">MINING CHAIN</div>
               <div className="text-gray-500 text-sm">Built for Vibecraft Hackathon</div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function Footer() {
           transition={{ delay: 0.2 }}
           className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm"
         >
-          <p>© 2024 BlockChainCraft. Proof of Play meets Web3.</p>
+          <p>© 2024 MINING CHAIN. Proof of Play meets Web3.</p>
         </motion.div>
       </div>
     </footer>

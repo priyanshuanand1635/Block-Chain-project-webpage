@@ -22,7 +22,7 @@ export default function Navbar() {
                             <Pickaxe className="w-6 h-6 text-cyan-400" />
                         </div>
                         <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-green-400 bg-clip-text text-transparent">
-                            BlockChainCraft
+                            MINING CHAIN
                         </span>
                     </Link>
 
