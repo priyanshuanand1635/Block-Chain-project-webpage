@@ -11,7 +11,7 @@ export default function HowItWorks() {
     },
     {
       icon: Calculator,
-      title: 'Plugin Calculates Proof of Play',
+      title: 'Plugin Calculates Proof of Concept',
       description: 'Advanced algorithms verify your mining activity and calculate your contribution score in real-time.',
       color: 'green',
     },

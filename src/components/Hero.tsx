@@ -163,7 +163,7 @@ export default function Hero() {
           className="text-xl md:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto leading-relaxed"
         >
           Turn Minecraft mining into blockchain rewards using{' '}
-          <span className="text-cyan-400 font-semibold">Proof of Play</span>.
+          <span className="text-cyan-400 font-semibold">Proof of Concept</span>.
         </motion.p>
 
         <motion.div

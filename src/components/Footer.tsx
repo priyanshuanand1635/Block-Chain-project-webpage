@@ -46,7 +46,7 @@ export default function Footer() {
           transition={{ delay: 0.2 }}
           className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-500 text-sm"
         >
-          <p>© 2024 MINING CHAIN. Proof of Play meets Web3.</p>
+          <p>© 2024 MINING CHAIN. Proof of Concept meets Web3.</p>
         </motion.div>
       </div>
     </footer>

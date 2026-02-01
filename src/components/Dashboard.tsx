@@ -7,7 +7,7 @@ export default function Dashboard() {
     username: 'SteveTheMiner',
     walletAddress: '0x742d35Cc...5f0bEb',
     blocksMined: 15847,
-    proofOfPlayScore: 9234,
+    proofOfConceptScore: 9234,
     pendingRewards: 2.45,
   });
 
@@ -16,7 +16,7 @@ export default function Dashboard() {
       setPlayerData(prev => ({
         ...prev,
         blocksMined: prev.blocksMined + Math.floor(Math.random() * 3),
-        proofOfPlayScore: prev.proofOfPlayScore + Math.floor(Math.random() * 10),
+        proofOfConceptScore: prev.proofOfConceptScore + Math.floor(Math.random() * 10),
         pendingRewards: prev.pendingRewards + (Math.random() * 0.001),
       }));
     }, 2000);
@@ -34,8 +34,8 @@ export default function Dashboard() {
     },
     {
       icon: Trophy,
-      label: 'Proof of Play Score',
-      value: playerData.proofOfPlayScore.toLocaleString(),
+      label: 'Proof of Concept Score',
+      value: playerData.proofOfConceptScore.toLocaleString(),
       color: 'green',
       suffix: 'PTS',
     },
