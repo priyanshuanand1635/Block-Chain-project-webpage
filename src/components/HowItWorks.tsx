@@ -99,9 +99,14 @@ export default function HowItWorks() {
             <div className="text-2xl font-bold text-white mb-4">
               Install the plugin and connect your wallet
             </div>
-            <button className="px-8 py-4 bg-gradient-to-r from-cyan-500 to-green-500 rounded-xl font-bold text-white hover:scale-105 transition-transform">
+            <a
+              href="https://github.com/Tushar130506/MiningChain"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-4 bg-gradient-to-r from-cyan-500 to-green-500 rounded-xl font-bold text-white hover:scale-105 transition-transform"
+            >
               Download Plugin
-            </button>
+            </a>
           </div>
         </motion.div>
       </div>
