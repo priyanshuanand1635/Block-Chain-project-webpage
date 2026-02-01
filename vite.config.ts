@@ -2,8 +2,8 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  base: '/Block-Chain-project-webpage/',
+export default defineConfig(({ command }) => ({
+  base: command === 'serve' ? '/' : '/Block-Chain-project-webpage/',
   plugins: [react()],
   optimizeDeps: {
     exclude: ['lucide-react'],
@@ -13,4 +13,4 @@ export default defineConfig({
     port: 5173,
     strictPort: false,
   },
-});
+}));

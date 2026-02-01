@@ -105,14 +105,17 @@ export default function Dashboard() {
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 to-green-500/5 opacity-0 group-hover:opacity-100 transition-opacity" />
 
               <div className="relative">
-                <div className={`inline-flex p-4 rounded-xl bg-${card.color}-500/20 mb-6`}>
-                  <card.icon className={`w-8 h-8 text-${card.color}-400`} />
+                <div className={`inline-flex p-4 rounded-xl mb-6 ${card.color === 'cyan' ? 'bg-cyan-500/20' : 'bg-green-500/20'
+                  }`}>
+                  <card.icon className={`w-8 h-8 ${card.color === 'cyan' ? 'text-cyan-400' : 'text-green-400'
+                    }`} />
                 </div>
 
                 <div className="text-gray-400 text-sm mb-3">{card.label}</div>
 
                 <div className="flex items-baseline gap-2">
-                  <span className={`text-4xl font-black text-${card.color}-400`}>
+                  <span className={`text-4xl font-black ${card.color === 'cyan' ? 'text-cyan-400' : 'text-green-400'
+                    }`}>
                     {card.value}
                   </span>
                   {card.suffix && (
